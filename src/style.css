@@ -1,5 +1,103 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #fafafa;
+	display: flex;
+	justify-content: center;
+}
 
-body{
-    background: white;
+.feed {
+	width: 600px;
+	padding: 20px;
+}
+
+.post {
+	background-color: white;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.post-header {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+.avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.username {
+	font-weight: bold;
+}
+
+.post-image {
+	width: 100%;
+	height: auto;
+}
+
+.caption {
+	padding: 10px;
+}
+body { 
+	margin: 0; 
+	font-family: Arial, sans-serif; 
+	background-color: #fafafa; 
+	display: flex; 
+	justify-content: center; 
+}  
+
+.feed { 
+	width: 600px; 
+	padding: 20px; 
+}  
+
+.post { 
+	background-color: white; 
+	border: 1px solid #ddd; 
+	border-radius: 5px; 
+	margin-bottom: 20px; 
+	overflow: hidden; 
+}  
+
+.post-header { 
+	display: flex; 
+	align-items: center; 
+	padding: 10px; 
+}  
+
+.avatar { 
+	width: 40px; 
+	height: 40px; 
+	border-radius: 50%; 
+	margin-right: 10px; 
+}  
+
+.username { 
+	font-weight: bold; 
+}  
+
+.post-image { 
+	width: 100%; 
+	height: auto; 
+}  
+
+.caption { 
+	padding: 10px; 
+}
+
+/* Add these new styles for form validation */
+.error-input {
+  background-color: #f8d7da !important;
+  border-color: #dc3545 !important;
+}
+
+.error-select {
+  background-color: #f8d7da !important;
+  border-color: #dc3545 !important;
 }
